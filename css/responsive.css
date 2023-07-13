@@ -1,0 +1,530 @@
+@media (min-width:992px) and (max-width:1199px) {
+	.container {
+		max-width: 990px;
+	}
+
+	header nav ul li a {
+		font-size: var(--font-size-13px);
+		padding: 10px 15px;
+	}
+
+	header .search-box input {
+		width: 173px;
+	}
+
+	.banner .content .title {
+		font-size: var(--font-size-24px);
+		color: var(--white-color);
+		font-weight: 500;
+	}
+
+	.banner .content p {
+		font-size: var(--font-size-16px);
+		color: var(--white-color);
+		margin: 0 auto;
+		padding: 20px 0px;
+		width: 50%;
+		line-height: 22px;
+	}
+
+	.entry-section ul li {
+		height: 150px;
+	}
+
+	.enjoy-section p {
+		width: 96%;
+		line-height: 22px;
+		font-size: var(--font-size-16px);
+		color: var(--black-color);
+		margin: 0 auto;
+		font-weight: 400;
+	}
+
+	.enjoy-section .banner-second {
+		height: 300px;
+	}
+
+	.enjoy-section .banner-second p {
+		font-size: var(--font-size-16px);
+		width: 100%;
+	}
+
+	.resort-section h3 {
+		padding-bottom: 25px;
+	}
+
+	.resort-section .image-box {
+		height: 200px;
+		width: 320px;
+	}
+
+	.resort-section .image-box img {
+		height: 200px;
+	}
+
+	.room-section .content p {
+		width: 96%;
+		line-height: 22px;
+		font-size: var(--font-size-16px);
+		color: var(--black-color);
+		margin: 0 auto;
+		font-weight: 400;
+	}
+
+	.hotel-section .image-box:before {
+		height: 200px;
+	}
+
+	.hotel-section .image-box img {
+		height: 200px;
+	}
+
+	.hotel-section .image-box p {
+		position: absolute;
+		font-size: var(--font-size-14px);
+		color: #ffffff;
+		font-weight: 500;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.hotel-section .content p {
+		width: 96%;
+		line-height: 22px;
+		font-size: var(--font-size-16px);
+		color: var(--black-color);
+		margin: 0 auto;
+		font-weight: 400;
+		padding: 10px 0px;
+	}
+
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer .social-icon {
+		padding: 15px 0px 0px 0px;
+	}
+
+	footer ul li {
+		font-size: 13px;
+		padding: 6px 0px;
+		font-weight: 500;
+	}
+
+	footer .about-us p {
+		line-height: 22px;
+		font-size: 13px;
+	}
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.container {
+		max-width: 720px;
+	}
+
+	header nav ul li a {
+		text-decoration: none;
+		padding: 10px 6px;
+		font-size: 12px;
+	}
+
+	header .search-box a i {
+		display: none;
+	}
+
+	header .search-box input {
+		height: 25px;
+		width: 170px;
+	}
+
+	header .search-box input::placeholder {
+		color: var(--black-color);
+		font-size: 12px;
+	}
+
+	.banner {
+		margin-top: 68px;
+		height: calc(70vh - 68px);
+	}
+
+	.banner .content .title {
+		font-size: var(--font-size-24px);
+		color: var(--white-color);
+		font-weight: 500;
+	}
+
+	.banner .content p {
+		font-size: var(--font-size-16px);
+		color: var(--white-color);
+		margin: 0 auto;
+		padding: 20px 0px;
+		width: 80%;
+		line-height: 22px;
+	}
+
+	.entry-section .content .box .title {
+		font-size: var(--font-size-14px);
+		color: var(--black-color);
+		padding-bottom: 10px;
+		font-weight: 500;
+	}
+
+	.entry-section ul li {
+		height: 150px;
+	}
+
+	.enjoy-section p {
+		width: 96%;
+		line-height: 22px;
+		font-size: var(--font-size-16px);
+		color: var(--black-color);
+		margin: 0 auto;
+		font-weight: 400;
+		padding: 0px;
+	}
+
+	.enjoy-section .banner-second {
+		height: 300px;
+	}
+
+	.enjoy-section .banner-second p {
+		font-size: var(--font-size-16px);
+	}
+
+	.resort-section h3 {
+		padding-bottom: 25px;
+	}
+
+	.resort-section .image-box {
+		height: 150px;
+		width: 220px;
+	}
+
+	.resort-section .image-box img {
+		height: 150px;
+	}
+
+	.resort-section p {
+		font-size: var(--font-size-14px);
+	}
+
+	.resort-section .col-6 .image-box:last-child {
+		margin-left: 100px;
+		margin-top: -8%;
+	}
+
+	.room-section .image-box img {
+		height: 150px;
+	}
+
+	.room-section .content p {
+		font-size: var(--font-size-16px);
+		width: 96%;
+	}
+
+	.room-section .image-box .box p {
+		font-size: var(--font-size-13px);
+		padding: 10px 5px;
+	}
+
+	.hotel-section .image-box:before {
+		height: 180px;
+	}
+
+	.hotel-section .image-box img {
+		height: 180px;
+	}
+
+	.hotel-section .image-box p {
+		position: absolute;
+		font-size: var(--font-size-14px);
+		color: #ffffff;
+		font-weight: 500;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.hotel-section .content p {
+		width: 96%;
+		line-height: 22px;
+		font-size: var(--font-size-16px);
+		color: var(--black-color);
+		margin: 0 auto;
+		font-weight: 400;
+		padding: 10px 0px;
+	}
+
+	.question-section button {
+		height: 40px;
+		width: 100%;
+		border-radius: 30px;
+		cursor: pointer;
+		border: none;
+		outline: none;
+		background: var(--hover-color);
+		transition: 0.4s;
+		font-size: var(--font-size-12px);
+		margin-bottom: 5px;
+	}
+
+	.question-section button:hover {
+		transform: scale(1.1);
+		z-index: 1;
+	}
+
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer .social-icon {
+		padding: 15px 0px 0px 0px;
+	}
+
+	footer ul li {
+		font-size: 13px;
+		padding: 6px 0px;
+		font-weight: 500;
+	}
+
+	footer .about-us p {
+		line-height: 22px;
+		font-size: 13px;
+	}
+
+}
+
+@media (max-width:767px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+		width: 100%;
+	}
+
+	.toggle-button {
+		display: block;
+		color: #000000;
+		padding-top: 20px;
+	}
+
+	header {
+		padding: 5px 0px;
+	}
+
+	header .logo a img {
+		height: 45px;
+		width: 45px;
+	}
+
+	header nav {
+		margin-top: 0;
+		display: none;
+		padding: 0px;
+	}
+
+	header .menu-section {
+		display: block;
+		position: absolute;
+		right: 15px;
+		top: 0px;
+		font-size: 25px;
+		color: #000000;
+	}
+
+	header nav.show {
+		display: block;
+		position: absolute;
+		z-index: 2;
+		background: #ffffff;
+		width: 100vw;
+		right: -15px;
+	}
+
+	header .menu-section ul li {
+		display: block;
+		float: none;
+		text-align: center;
+		padding: 10px 0px;
+		width: 100%;
+	}
+
+	header nav ul li a {
+		padding: 10px 14px;
+	}
+
+	header .search-box input {
+		width: 301px;
+		margin: 10px auto;
+	}
+
+	.banner .content .title {
+		font-size: var(--font-size-20px);
+		font-weight: 500;
+	}
+
+	.banner .content p {
+		font-size: var(--font-size-16px);
+		margin: 0px;
+		padding: 15px 10px;
+	}
+
+	.entry-section ul li {
+		font-size: var(--font-size-13px);
+		font-weight: 400;
+		height: 75px;
+		width: 100%;
+		border-bottom: 1px solid #cdcdcd;
+		margin: 0px 30px;
+	}
+
+	.entry-section ul li:nth-child(3), .entry-section ul li:nth-child(4) {
+		border-bottom: none;
+	}
+
+	.entry-section ul li:last-child {
+		margin: 0px;
+	}
+
+	.entry-section ul li:after {
+		display: none;
+	}
+
+	.entry-section .content .box .title {
+		font-size: var(--font-size-12px);
+		padding-bottom: 8px;
+		font-weight: 400;
+	}
+
+	.entry-section .content .box .date {
+		font-size: var(--font-size-13px);
+		font-weight: 400;
+	}
+
+	.entry-section {
+		margin-top: -50px;
+	}
+
+	button {
+		height: 23px;
+		width: 80px;
+		font-size: 10px;
+	}
+
+	.entry-section ul li:after {
+		height: 70px;
+		top: 23%;
+	}
+
+	.enjoy-section h1 {
+		font-size: var(--font-size-20px);
+	}
+
+	.enjoy-section p {
+		line-height: 20px;
+		font-size: var(--font-size-15px);
+		width: 90%;
+		padding: 0px;
+	}
+
+	.enjoy-section .banner-second .title {
+		font-size: var(--font-size-20px);
+	}
+
+	.enjoy-section .banner-second p {
+		font-size: var(--font-size-14px);
+		padding-bottom: 20px;
+		font-weight: 400;
+	}
+
+	.resort-section .col-6 .image-box:last-child {
+		margin-left: 0px;
+		margin-top: 10%;
+	}
+
+	.resort-section .image-box {
+		height: 231px;
+		width: 100%;
+	}
+
+	.resort-section .content {
+		margin-top: 50px;
+	}
+
+	.room-section .content h4 {
+		font-size: var(--font-size-20px);
+		margin: 0px;
+		color: var(--black-color);
+	}
+
+	.room-section .content p {
+		font-size: var(--font-size-14px);
+		color: var(--black-color);
+		padding: 10px 0px 20px;
+		width: 91%;
+		margin: 0 auto;
+	}
+
+	.room-section .image-box {
+		margin-bottom: 15px;
+	}
+
+	.banner-third .content p {
+		font-size: var(--font-size-14px);
+		padding: 10px 0px 20px;
+		width: 91%;
+		margin: 0 auto;
+	}
+
+	.hotel-section .content h5 {
+		font-size: var(--font-size-20px);
+		margin: 0px;
+		color: var(--black-color);
+	}
+
+	.hotel-section .content p {
+		font-size: var(--font-size-14px);
+		color: var(--black-color);
+		padding: 10px 0px 20px;
+		width: 91%;
+		margin: 0 auto;
+	}
+
+	.question-section h6 {
+		font-size: var(--font-size-20px);
+		margin: 0px;
+		color: var(--black-color);
+	}
+
+	.question-section input {
+		margin-bottom: 20px;
+	}
+
+	.question-section button {
+		width: 100px;
+	}
+
+	footer .title {
+		font-size: 16px;
+	}
+
+	footer ul li {
+		font-size: 13px;
+	}
+
+	footer .about-us p {
+		font-size: 13px;
+	}
+
+	footer .col-4, footer .col-3, footer .col-2 {
+		margin-bottom: 30px;
+	}
+
+	.copyright {
+		padding: 12px 0px 0px 0px;
+		font-size: 14px;
+	}
+
+}
